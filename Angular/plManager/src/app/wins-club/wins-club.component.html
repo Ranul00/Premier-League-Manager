@@ -1,0 +1,39 @@
+
+<html>
+    <header>
+    </header>
+    <body>
+        <div style="overflow-x:auto;">
+        <table class="center">
+            <thead>
+                <tr>
+                    <th>Club Name</th>
+                    <th>Club Location</th>
+                    <th>Points</th>
+                    <th>Wins</th>
+                    <th>Defeats</th>
+                    <th>Draws</th>
+                    <th>Goals Scored</th>
+                    <th>Goals Recieved</th>
+                    <th>Goal Difference</th>
+                    <th>Number of Matches</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor = "let club of winsClub">
+                    <td>{{club.clubName}}</td>
+                    <td>{{club.clubLocation}}</td>
+                    <td>{{club.points}}</td>
+                    <td>{{club.wins}}</td>
+                    <td>{{club.defeats}}</td>
+                    <td>{{club.draws}}</td>
+                    <td>{{club.goalScored}}</td>
+                    <td>{{club.goalRecieved}}</td>
+                    <td>{{club.goalDifferance}}</td>
+                    <td>{{club.numOfMatches}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </body>
+</html>

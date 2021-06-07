@@ -1,0 +1,21 @@
+<body>   
+          <div class="sidenav">
+            <a routerLink = "/pointSort" routerLinkActive="active">Point order</a>
+            <a routerLink = "/goalsDecending" routerLinkActive="active">Goals order</a>
+            <a routerLink = "/winsDecending" routerLinkActive="active">Wins order</a>
+            <a routerLink = "/dateSort" routerLinkActive="active">Date order</a>
+            <a routerLink = "/randomMatch" routerLinkActive="active">Random a match</a>
+          </div>
+        <br><br>
+        <div class="right">
+          <img src="\assets\logo.png" alt="logo" width="50"height="50">
+          <h1>{{title}}</h1>
+          <br><br>
+          <h3>Leaderboard</h3><br><br>
+          <app-manager></app-manager>
+        </div>
+        <br><br>
+        <h3>Sorted Table</h3><br><br>
+</body>
+
+<router-outlet></router-outlet>

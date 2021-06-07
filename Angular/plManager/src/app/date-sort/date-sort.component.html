@@ -1,0 +1,34 @@
+
+<html>
+    <header>
+    </header>
+    <body>
+        <input type = "text" >
+        <div style="overflow-x:auto;">
+        <table class="center">
+            <thead>
+                <tr>
+                    <th>Home Team</th>
+                    <th>Away Team</th>
+                    <th>Homegoals Scored</th>
+                    <th>Awaygoals Scored</th>
+                    <th>date</th>
+                    <th>month</th>
+                    <th>year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor = "let club of dateSort">
+                    <td>{{club.team1}}</td>
+                    <td>{{club.team2}}</td>
+                    <td>{{club.goalsScored}}</td>
+                    <td>{{club.goalsRecieved}}</td>
+                    <td>{{club.date}}</td>
+                    <td>{{club.month}}</td>
+                    <td>{{club.year}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </body>
+</html>

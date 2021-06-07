@@ -1,0 +1,21 @@
+table, th, td {
+    width: auto;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+    text-align: center;
+    background-color:#4CAF50;
+    }
+  th{
+    background-color: grey;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body {
+    font-family: "montserrat";
+  }
+  
+  
+  
